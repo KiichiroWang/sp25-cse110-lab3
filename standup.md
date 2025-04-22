@@ -12,20 +12,26 @@ Attendance:
 ## Team Member 1
 Name: 
 
-**Yesterday I did:**
+Yesterday I did:
+-
+-
+-
+
+Today I will do:
  -
  -
  -
 
-
-**Today I will do:**
+I am being blocked by:
  -
  -
  -
 
-**I am being blocked by:**
- -
- -
- -
+## Action Items
+| Task     | Details     | Deadline | Status |
+|----------|-------------|----------|--------|
+| Task_2   | Blurb       | 00/00  | ❌    |
+| Task_3   | Blurb       | 00/00  | ❌    |
+| Task_4   | Blurb       | 00/00  | ❌    |
 
 ## Additional Notes
