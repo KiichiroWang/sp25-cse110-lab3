@@ -1,0 +1,104 @@
+:root {
+    --vgdc-green: #0fa866;
+}
+
+/* var with fallback */
+.vgdc_title {
+    color: var(--vgdc-green, green); 
+}
+
+.spring_title {
+    color: lightsalmon;
+}
+
+.meeting_title {
+    color: rgb(15, 110, 69);
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0em;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.box_long {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    padding-top: 15px;     
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.box_short {
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 3px dashed black;
+    border-radius: 10px;
+}
+
+.section_line {
+    width: 500px;
+    height: 1px;
+    padding: 0%;
+    background-color: black;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+  .inline {
+    display: inline;
+    color: red;
+    text-align: center;
+  }
+
+  .button:hover {
+    background-color: #2a9d8f;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button:active {
+    background-color: #21867a;
+    transform: scale(0.98);
+  }
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: #f0f0f0;
+      font-size: 16px;
+    }
+}
